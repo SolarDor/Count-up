@@ -6,6 +6,7 @@ $(document).ready(function(){
     const firstNumberInput = parseInt($("input#firstNumber").val());
     const secondNumberInput = parseInt($("input#secondNumber").val());
 
+    // const enteredArray []
     
 
     for (let index = 0; index <=firstNumberInput; index += secondNumberInput){
