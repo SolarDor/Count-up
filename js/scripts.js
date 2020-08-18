@@ -6,12 +6,12 @@ $(document).ready(function(){
     const firstNumberInput = parseInt($("input#firstNumber").val());
     const secondNumberInput = parseInt($("input#secondNumber").val());
 
-    // const enteredArray []
-    
+    let resultArray = [];
 
     for (let index = 0; index <=firstNumberInput; index += secondNumberInput){
-      alert(index);
+      resultArray.toString();
+      resultArray.push([index]);
     } 
-
+    $(".result").append(resultArray + " ");
   })
 })
